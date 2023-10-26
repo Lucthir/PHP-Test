@@ -24,7 +24,7 @@ $greg = new Player('greg');
 $chuckNorris = new Player('Chuck Norris', 3000);
 
 $lobby = new Lobby();
-$lobby->addPlayer($greg);
+// $lobby->addPlayer($greg);
 $lobby->addPlayer($chuckNorris);
 
 while (count($lobby->queuingPlayers)) {
